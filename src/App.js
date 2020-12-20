@@ -25,7 +25,7 @@ export default function App() {
     if (inputEmoji in emojiDictionary) {
       setEmojiMeaningOutput(emojiDictionary[inputEmoji]);
     } else {
-      setEmojiMeaningOutput("falure to recognize this emoji");
+      setEmojiMeaningOutput("failure to recognize this emoji");
     }
   }
   function emojiClickHandler(inputEmoji) {
