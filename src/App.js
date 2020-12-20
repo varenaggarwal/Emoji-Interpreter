@@ -19,7 +19,7 @@ export default function App() {
     "translation will appear here"
   );
   const [emoji, setEmoji] = useState("");
-  function onChangeHandler() {
+  function onChangeHandler(event) {
     const inputEmoji = event.target.value;
     setEmoji(inputEmoji);
     if (inputEmoji in emojiDictionary) {
