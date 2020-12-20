@@ -1,4 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 .App {
   font-family: sans-serif;
   text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+input {
+  padding: 1em;
+  width: 80%;
+}
+
+.largeFont {
+  font-size: x-large;
+  padding: 0.5rem;
+}
+span {
+  font-size: 2rem;
+  padding: 0.5rem;
+  cursor: pointer;
 }

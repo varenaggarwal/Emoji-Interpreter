@@ -35,10 +35,10 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1>inside Out!!</h1>
+      <h1>inside Out!</h1>
       <input onChange={onChangeHandler} />
-      <div>{emoji}</div>
-      <div>{emojiMeaningOutput}</div>
+      <div className="largeFont">{emoji}</div>
+      <div className="largeFont">{emojiMeaningOutput}</div>
       {emojilist.map((emoji) => (
         <span onClick={() => emojiClickHandler(emoji)}> {emoji} </span>
       ))}
