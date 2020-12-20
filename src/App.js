@@ -4,12 +4,12 @@ import "./styles.css";
 const emojiDictionary = {
   "🎅": "santa claus",
   "🎄": "christmas tree",
-  "😊": "Smiling",
-  "😳": "disbelief",
-  "😔": "sad",
-  "🥡": "takeout box",
-  "❤️": "love",
-  "😑": "annoyance"
+  "❄️": "Snowflake",
+  "🎁": "Wrapped Gift",
+  "🔔": "Bell",
+  "🧦": "Socks",
+  "☃️": "Snowman",
+  "🦌": "Deer"
 };
 
 const emojilist = Object.keys(emojiDictionary);
@@ -35,7 +35,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1>inside Out!</h1>
+      <h1>Christmas Emojis!</h1>
       <input onChange={onChangeHandler} />
       <div className="largeFont">{emoji}</div>
       <div className="largeFont">{emojiMeaningOutput}</div>
